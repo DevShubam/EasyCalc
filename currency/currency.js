@@ -1,10 +1,14 @@
 // Gets the Currency Ammount
 
-var crrncy = {'EUR': {'PLN': 4.15, 'USD': 0.83, 'CAD': 1.57 }, 
+var crrncy = {  
+  
+              'EUR': {'PLN': 4.15, 'USD': 0.83, 'CAD': 1.57 }, 
               'USD': {'PLN': 3.45, 'EUR': 1.2, 'CAD': 1.28}, 
               'CAD': {'PLN': 2.85, 'USD': 0.78, 'EUR': 0.64 }, 
               'PLN': {'EUR': 0.22, 'CAD': 0.35, 'USD': 0.27}
-             }
+            
+
+}
 // Amounts (Easier for me to go back and make changed)
 // EURO: 'EUR': {'PLN': 4.15, 'USD': 0.83, 'CAD': 1.57 },
 // USD: 'USD': {'PLN': 3.45, 'EUR': 1.2, 'CAD': 1.28},

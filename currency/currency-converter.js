@@ -1,16 +1,13 @@
-// Gets the Currency Ammount
-
-var crrncy = {  
-  
+var crrncy = {
+    
     'EUR': {'PLN': 4.15, 'USD': 0.83, 'CAD': 1.57 }, 
     'USD': {'PLN': 3.45, 'EUR': 1.2, 'CAD': 1.28}, 
     'CAD': {'PLN': 2.85, 'USD': 0.78, 'EUR': 0.64 }, 
     'PLN': {'EUR': 0.22, 'CAD': 0.35, 'USD': 0.27}
   
-
+  
 }
-
-
+// DONT CHANGE
 var btn = document.querySelector('.calculate-btn');
 var baseCurrencyInput = document.getElementById('currency-1');
 var secondCurrencyInput = document.getElementById('currency-2');

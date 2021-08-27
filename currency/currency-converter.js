@@ -1,3 +1,5 @@
+// Currently Converts PLN, EURO, CAD, USD
+
 var crrncy = {
     
     'EUR': {'PLN': 4.15, 'USD': 0.83, 'CAD': 1.57 }, 

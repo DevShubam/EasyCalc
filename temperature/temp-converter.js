@@ -1,38 +1,28 @@
-var crrncy = {'Celcius': {'Kelvin': 274.15, 'Farenheit': 33.8}, 
-            'Kelvin': {'Celcius': -272.15, 'Farenheit': -457.87},
-            'Farenheit': {'Celcius': -17.2222, 'Kelvin': 255.95}
-             }
-var btn = document.querySelector('.calculate-btn');
-var baseCurrencyInput = document.getElementById('currency-1');
-var secondCurrencyInput = document.getElementById('currency-2');
-var amountInput = document.getElementById('amount');
-var toShowAmount = document.querySelector('.given-amount');
-var toShowBase = document.querySelector('.base-currency');
-var toShowSecond = document.querySelector('.second-currency');
-var toShowResult = document.querySelector('.final-result');
+const celciusInput = document.getElementById("celcius");
+const fahrenheitInput = document.getElementById("fahrenheit");
+const kelvinInput = document.getElementById("kelvin");
 
-function convertCurrency(event) {
-  event.preventDefault();
-  var amount = amountInput.value;
-  var from = baseCurrencyInput.value;
-  var to = secondCurrencyInput.value;
-  var result = 0;
-  
-  try{
-    if (from == to){
-      result = amount;
-    } else {
-     result = amount * crrncy[from][to];
-  }
-  }
-  catch(err) {
-    result = amount * (1 / crrncy[to][from]);
-  }
-  
-  toShowAmount.innerHTML = amount;
-  toShowBase.textContent = from + ' = ';
-  toShowSecond.textContent = to;
-  toShowResult.textContent = result; 
+const inputs = document.getElementsByClassName("input");
+
+for (let i = 0; i < inputs.length; i++) {
+    let input = inputs[i];
+
+    input.addEventListener("input", function (e) {
+        let value = parseFloat(e.target.value);
+        
+        switch (e.target.name) {
+            case "celcius":
+                fahrenheitInput.value = (value * 1.8) + 32;
+                kelvinInput.value = value + 273.15;
+                break;
+            case "fahrenheit":
+                celciusInput.value = (value - 32) / 1.8;
+                kelvinInput.value = ((value - 32) / 1.8) + 273.15;
+                break;
+            case "kelvin":
+                celciusInput.value = value - 273.15;
+                fahrenheitInput.value = ((value - 273.15) * 1.8) + 32;
+                break;
+        }
+    });
 }
-
-btn.addEventListener('click', convertCurrency);

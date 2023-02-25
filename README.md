@@ -6,7 +6,7 @@ easyCalc is still a work in progress, and is being updated.
 
 
 # ToDo
-[x] Temperature Converter
-[] Length Converter
-[] Tip Calculator
-[] Scientific Calculator
+- [x] Temperature Converter
+- [] Length Converter
+- [] Tip Calculator
+- [] Scientific Calculator

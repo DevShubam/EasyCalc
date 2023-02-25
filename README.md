@@ -7,6 +7,7 @@ easyCalc is still a work in progress, and is being updated.
 
 # ToDo
 - [x] Temperature Converter
+- [x] Mean, Median & Mode Calculator 
 - [ ] Length Converter
 - [ ] Tip Calculator
 - [ ] Scientific Calculator

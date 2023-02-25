@@ -1,17 +1,19 @@
 /* Theme credits to the Dracula Theme */
 
 .category-navbar {
-    font-size: 30px;
+	font-size: 30px;
 }
+
 /* Text Selection Color*/
 
 ::-moz-selection {
-    color: rgb(255, 255, 255);
-    background: rgb(128, 128, 128);
+	color: rgb(255, 255, 255);
+	background: rgb(128, 128, 128);
 }
-  ::selection {
-    color: rgb(255, 255, 255);
-    background: rgb(128, 128, 128);
+
+::selection {
+	color: rgb(255, 255, 255);
+	background: rgb(128, 128, 128);
 }
 
 html,
@@ -22,11 +24,12 @@ body {
 
 /* text*/
 body * {
-    color: rgb(255, 255, 255);
-    background-color: rgba(40, 42, 54, 1) !important;
-    font-family: "Roboto", sans-serif;
-    text-align: center; /* All text should be aligned to center, unless manually overriden */
-    overflow-x: hidden;
+	color: rgb(255, 255, 255);
+	background-color: rgba(40, 42, 54, 1) !important;
+	font-family: "Roboto", sans-serif;
+	text-align: center;
+	/* All text should be aligned to center, unless manually overriden */
+	overflow-x: hidden;
 }
 
 a,
@@ -127,3 +130,4 @@ a.active *,
 [href="#"] {
 	font-weight: bold !important;
 	color: rgba(139, 233, 253, 1) !important;
+}

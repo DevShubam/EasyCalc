@@ -9,5 +9,5 @@ easyCalc is still a work in progress, and is being updated.
 - [x] Temperature Converter
 - [x] Mean, Median & Mode Calculator 
 - [ ] Length Converter
-- [ ] Tip Calculator
+- [x] Tip Calculator
 - [ ] Scientific Calculator

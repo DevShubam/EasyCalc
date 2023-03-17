@@ -2,8 +2,6 @@
     max-width: 500px;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
     text-align: center;
   }
   
@@ -21,9 +19,9 @@
   input {
     width: 100%;
     padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+    border-radius: 8px;
     margin-bottom: 20px;
+    align-items: center;
   }
   
   button {

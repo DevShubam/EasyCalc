@@ -1,8 +1,7 @@
 # easyCalc
 
-easyCalc is a collection of web based calculation tools. This includes regular arthimetic, currency, temperature, unit converters and more.
-
-easyCalc is still a work in progress, and is being updated.
+easyCalc is a free calculator website, that has a lot of different types of tools that can be used.. This includes regular arthimetic, currency, temperature, unit converters and more.
+easyCalc is still no where near complete, and is being regularly updated.
 
 
 # ToDo

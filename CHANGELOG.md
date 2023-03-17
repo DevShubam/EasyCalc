@@ -1,2 +1,2 @@
-# 2023-03-05
-- Added a tip calculator
+# https://headwayapp.co/easycalc-changelog
+# https://github.com/DevShubam/easyCalc/commits/main

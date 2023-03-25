@@ -12,5 +12,7 @@ easyCalc is still no where near complete, and is being regularly updated.
 - [ ] Scientific Calculator
 
 # Contributing
+Contributions to easyCalc are appreciated. You can open an issue, or a pull request with any changes / enhancements you would like to add. 
 
 # License
+easyCalc is currently licensed under the GNU General Public License v3.0. You can view it [here](https://github.com/DevShubam/easyCalc/blob/main/LICENSE).

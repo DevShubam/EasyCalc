@@ -4,7 +4,7 @@
 	font-size: 30px;
 }
 
-/* Text Selection Color*/
+/*Text Selection Color*/
 
 ::-moz-selection {
 	color: rgb(255, 255, 255);
@@ -134,5 +134,5 @@ a.active *,
 
 .bottom-of-home {
 	text-align: center;
-	line-height: 1;
+	padding-top: 400px;
 }

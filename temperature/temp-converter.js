@@ -1,6 +1,6 @@
-const celciusInput = document.getElementById("c");
-const fahrenheitInput = document.getElementById("f");
-const kelvinInput = document.getElementById("k");
+const celciusInput = document.getElementById("celcius");
+const fahrenheitInput = document.getElementById("fahrenheit");
+const kelvinInput = document.getElementById("kelvin");
 
 const inputs = document.getElementsByClassName("input");
 

@@ -7,13 +7,6 @@ easyCalc can be accessed from two places:
 1. https://shubam.tech/easyCalc (Github Pages)
 2. https://easycalc.pages.dev (Cloudflare)
 
-# ToDo
-- [x] Temperature Converter
-- [x] Mean, Median & Mode Calculator 
-- [ ] Length Converter
-- [x] Tip Calculator
-- [ ] Scientific Calculator
-
 # Contributing
 Contributions to easyCalc are appreciated. You can open an issue, or a pull request with any changes / enhancements you would like to add. 
 

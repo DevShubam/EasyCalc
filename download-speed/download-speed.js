@@ -1,26 +1,28 @@
 function calculateDownloadTime() {
     // get input values
-    const downloadSpeed = document.getElementById("download-speed").value;
-    const fileSize = document.getElementById("file-size").value;
-    const fileSizeUnit = document.getElementById("fileSizeUnit").value;
-    const downloadSpeedUnit = document.getElementById("downloadSpeedUnit").value;
+    const fileSize = parseFloat(document.getElementById('fileSize').value);
+    const fileSizeUnit = document.getElementById('fileSizeUnit').value;
+
+    const downloadSpeed = parseFloat(document.getElementById('downloadSpeed').value);
+    const downloadSpeedUnit = document.getElementById('downloadSpeedUnit').value;
+
 
     // convert file size
 
     const conversion = {
-        'b': 1,
-        'kb': 1024,
-        'mb': 1024 * 1024,
-        'gb': 1024 * 1024 * 1024,
-        'tb': 1024 * 1024 * 1024 * 1024,
-        'pb': 1024 * 1024 * 1024 * 1024 * 1024,
+        'B': 1,
+        'KB': 1024,
+        'MB': 1024 * 1024,
+        'GB': 1024 * 1024 * 1024,
+        'TB': 1024 * 1024 * 1024 * 1024,
+        'PD': 1024 * 1024 * 1024 * 1024 * 1024,
 
         'bps': 1,
-        'kbps': 1024,
-        'mbps': 1024 * 1024,
-        'gbps': 1024 * 1024 * 1024,
-        'tbps': 1024 * 1024 * 1024 * 1024,
-        'pbps': 1024 * 1024 * 1024 * 1024 * 1024,
+        'Kbps': 1024,
+        'Mbps': 1024 * 1024,
+        'Gbps': 1024 * 1024 * 1024,
+        'Tbps': 1024 * 1024 * 1024 * 1024,
+        'Pbps': 1024 * 1024 * 1024 * 1024 * 1024,
     };
 
     // convert the file size to bytes

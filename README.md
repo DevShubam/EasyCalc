@@ -14,6 +14,9 @@ easyCalc provides a variety of calculators and conversion tools including:
 - Mean, Median and Mode Calculator
 - Download Speed Calculator
 
+# Wiki
+You can view a wiki [here](https://github.com/DevShubam/easyCalc/wiki).
+
 # Contributing
 Contributions to easyCalc are appreciated. You can open an issue, or a pull request with any changes / enhancements you would like to add. 
 
